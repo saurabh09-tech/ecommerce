@@ -12,25 +12,23 @@ function Home() {
   };
   return (
     <Slider  {...settings}>
-      <div className='h-[70vh]'>
+      <div >
        
-        <img src='/image/n.webp' className='object-cover'></img>
+        <img src='/image/1.webp' className='object-cover h-[600px] w-[1470px]'></img>
       </div>
       <div>
-        <h3>2</h3>
+      <img src='/image/2.webp' className='object-cover h-[600px] w-[1470px]'></img>
       </div>
       <div>
-        <h3>3</h3>
+      <img src='/image/3.webp' className='object-cover h-[600px] w-[1470px]'></img>
       </div>
       <div>
-        <h3>4</h3>
+      <img src='/image/4.webp' className='object-cover h-[600px] w-[1470px]'></img>
       </div>
       <div>
-        <h3>5</h3>
+      <img src='/image/5.webp' className='object-cover h-[600px] w-[1470px]'></img>
       </div>
-      <div>
-        <h3>6</h3>
-      </div>
+     
     </Slider>
   );
 }

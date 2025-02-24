@@ -7,6 +7,8 @@ import Home from './components/page.jsx/Home'
 import Discover from './components/page.jsx/Discover'
 import News from './components/page.jsx/News'
 import Pages from './components/page.jsx/Pages'
+import Login from './components/page.jsx/login'
+
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path='/discover' element={<Discover/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/pages' element={<Pages/>}/>
+        <Route path='/login' element={<Login/>}/>
+        
         
 
 
